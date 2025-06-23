@@ -1,5 +1,6 @@
 // xdb401 pressure sensor, esp32 s3
 // don't need pull-up resistor, because they built-in in sensor
+// brown - 3.3v, blue - gnd, white - sda, black - scl
 
 #include <Wire.h>
 
